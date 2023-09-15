@@ -67,7 +67,10 @@ do_gen_dep_list(){
     local recipe=$1
     do_log info "Generating ${PN_BUILDLIST} for recipe: ${recipe}"
 
-    bitbake -g $recipe > /dev/null
+    local command="bitbake -g $recipe"
+    [ ${ENABLE_DEBUG} -eq 0 ] && command+=" > /dev/null"
+
+    eval ${command}
     sed -i "/$recipe/d" ${PN_BUILDLIST}
 }
 
