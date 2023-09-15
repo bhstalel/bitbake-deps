@@ -1,4 +1,5 @@
 #!/bin/bash
+# Copyright: 2023 - Talel BELHAJSALEM (bhstalel@gmail.com)
 
 #
 #   Exit global function
