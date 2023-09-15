@@ -1,0 +1,53 @@
+#! /usr/bin/env python3
+#
+
+import argparse
+import os
+import sys
+
+# Prepare the relative import
+bindir = os.path.dirname(__file__)
+topdir = os.path.dirname(bindir)
+poky_dir = os.path.dirname(topdir)
+sys.path[0:0] = [os.path.join(poky_dir, 'meta/lib')]
+
+# Import OE utils
+from oeqa.utils.commands import runCmd, bitbake
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Run Tasks on Dependencies")
+    parser.add_argument("-r", "--recipe", help="Recipe name", required=True)
+    parser.add_argument("-t", "--task", help="Custom task to run on deps", required=False)
+    args = parser.parse_args()
+
+    print(f"[+] Passed recipe: {args.recipe}")
+    print(f"[+] Passed task: {args.task}")
+
+    print("[+] Generating deps ...")
+
+    # Generate recipe dependencies
+    result = bitbake(f"-g {args.recipe}")
+
+    # Assuming that files are generated, bitbake already has this unit test in:
+    #       (poky/meta/lib/oeqa/selftest/cases/bbtests.py:test_bitbake_g())
+
+    # Get pn-buildlist content
+    # There is better ways to do this of course ^_^
+    with open("pn-buildlist", "r") as pnfile:
+        pn_buildlist = pnfile.readlines()
+
+    if pn_buildlist:
+        for dep in pn_buildlist:
+
+            # Remove tailing newline
+            dep = dep.replace("\n", '')
+
+            # Ignore the recipe itself
+            if dep != args.recipe:
+
+                bitbake_cmd = f"{dep}"
+                bitbake_cmd += f" -c {args.task}" if args.task else ""
+
+                # Run command
+                print(f"[+] Running: {bitbake_cmd}")
+                bitbake(bitbake_cmd)

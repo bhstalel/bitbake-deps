@@ -33,6 +33,31 @@ ENABLE_DEBUG=1 ./bitbake-deps.sh core-image-minimal
 
 When enabling `DEBUG`, `bitbake` output will be shown along side the `[DEBUG]` log message.
 
+## Python Solution
+
+You need to copy the `bitbake-deps` script to `poky/bitbake/bin` and re`source` the `oe-ini-build-env` script again. Then you can use it like follows:
+
+* Usage:
+
+```sh
+bitbake-deps --help
+usage: bitbake-deps [-h] -r RECIPE [-t TASK]
+
+Run Tasks on Dependencies
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -r RECIPE, --recipe RECIPE
+                        Recipe name
+  -t TASK, --task TASK  Custom task to run on deps
+```
+
+* Fetch all dependencies of `core-image-minimal`
+
+```sh
+bitbake-deps -r core-image-minimal -t do_fetch
+```
+
 ## Use case examples
 
 * Fetch all dependencies of an image:
@@ -49,4 +74,4 @@ When enabling `DEBUG`, `bitbake` output will be shown along side the `[DEBUG]` l
 
 ## TODO
 
-- [ ] Complete the Python `bitbake-dep` script
+- [X] Complete the Python `bitbake-dep` script
