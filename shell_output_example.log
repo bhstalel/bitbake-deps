@@ -1,0 +1,1570 @@
+[34m[DEBUG] Checking passed arguments ..[0m
+[34m[DEBUG] Checking if the environment is set ..[0m
+[32m[INFO] Generating pn-buildlist for recipe: hello[0m
+[34m[DEBUG] Running bitbake on 58 pn-buildlist recipes ..[0m
+[32m[INFO] Running task do_fetch on recipe quilt-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe patch-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe binutils-cross-x86_64[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe pseudo-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe rpm-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe dwarfsrcfiles-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe glibc[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe gcc-runtime[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe gcc-cross-x86_64[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe python3-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe perl-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe linux-libc-headers[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe attr-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe autoconf-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe libtool-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe gnu-config-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe automake-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe texinfo-dummy-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe bison-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe flex-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe zlib-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe xz-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe pkgconfig-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe sqlite3-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe gettext-minimal-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe openssl-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe popt-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe libarchive-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe file-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe dbus-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe bzip2-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe db-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe elfutils-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe libgcc-initial[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe make-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe gperf-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe gcc-source-9.5.0[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe libgcc[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe libmpc-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe gmp-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe mpfr-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe util-linux-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe libtirpc-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe gdbm-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe readline-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe libnsl2-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe autoconf-archive-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe libffi-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe unifdef-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe rsync-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe m4-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe lzo-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe e2fsprogs-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe expat-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe libpcre2-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe ncurses-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe libcap-ng-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
+[32m[INFO] Running task do_fetch on recipe acl-native[0m
+Loading cache...done.
+Loaded 1343 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.27"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:0121cb4bd1caf192a47fe06af524df867948c295"
+meta-sofia           
+workspace            
+meta-append          = "rust:859e4cf94e30dc64d776c85b6b17c4f6a1b639d4"
+meta-useful          = "main:839cbd8b6654e218ce9554429cff920be2bf454c"
+
+Initialising tasks...done.
+Sstate summary: Wanted 11 Found 11 Missed 0 Current 129 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Tasks Summary: Attempted 554 tasks of which 554 didn't need to be rerun and all succeeded.
